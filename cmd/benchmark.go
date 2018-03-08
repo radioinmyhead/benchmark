@@ -1,7 +1,6 @@
 package main
 
 import (
-	"brain-data/benchmark/cmd/cmd"
 	"log"
 	"os"
 
@@ -16,7 +15,7 @@ func main() {
 	app.Usage = ""
 	app.Version = appVer
 	app.Commands = []cli.Command{
-		cmd.CmdDisk,
+		CmdDisk,
 	}
 	app.Flags = append(app.Flags, []cli.Flag{}...)
 	err := app.Run(os.Args)

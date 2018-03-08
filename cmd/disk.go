@@ -1,7 +1,7 @@
-package cmd
+package main
 
 import (
-	"brain-data/benchmark/benchmark"
+	"github.com/radioinmyhead/benchmark"
 
 	"github.com/urfave/cli"
 )
